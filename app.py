@@ -560,3 +560,6 @@ with tabs[6]:
     with st.expander("Preview audit JSON"): st.json(audit,expanded=False)
 
 st.divider(); st.caption("CIRRUS++ · Domain-aware and auditable preprocessing for multivariate time-series data.")
+
+# Legal notice
+st.link_button("Impressum", "https://www.uni-regensburg.de/impressum")

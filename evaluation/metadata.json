@@ -1,0 +1,42 @@
+{
+  "experiment": "exhaustive quality index evaluation of 5 non-eye-tracking domains",
+  "date": "2026-11-05",
+  "upstream_repository": "https://github.com/eyetracking-data/CIRRUS_Plus_Plus",
+  "upstream_core_blob_sha_as_inspected": "8d39b51e933874c8d48d4f4d545290aada65172c",
+  "implementation": "local faithful transcription; direct upstream import/parity check pending",
+  "synthetic_data_source": "same cirrus_eval.py generate_domain_series(n=480,seed=42..46) as phase 1",
+  "corruption": "same cirrus_eval.py corrupt_nested(clean,severity,seed+1000) as phase 1",
+  "samples_per_series": 480,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "severities_pct": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "domains": [
+    "industrial",
+    "energy",
+    "physiological",
+    "finance",
+    "network"
+  ],
+  "pipelines_per_scenario": 336,
+  "scaling": "none",
+  "candidate_count": 33600,
+  "model": "same feature-standardized RMSE vs noiseless synthetic clean signal; all points",
+  "old_25_pipeline_reproduction_count": 1875,
+  "old_25_pipeline_reproduction_max_abs_Q_diff": 0.0,
+  "old_25_pipeline_reproduction_max_abs_nrmse_diff": 0.0,
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

@@ -1,0 +1,7 @@
+domain,completeness_priority,continuity_priority,plausibility_priority,distribution_priority,stability_priority,correlation_priority,completeness_estimated_pct,continuity_estimated_pct,plausibility_estimated_pct,distribution_estimated_pct,stability_estimated_pct,correlation_estimated_pct,completeness_cirruspp_pct,continuity_cirruspp_pct,plausibility_cirruspp_pct,distribution_cirruspp_pct,stability_cirruspp_pct,correlation_cirruspp_pct,mae_pp
+Eye tracking,6,6,4,3,4,2,24.0,24.0,16.0,12.0,16.0,8.0,23,24,17,12,16,8,0.3333
+Industrial sensing,4,4,6,2,6,3,16.0,16.0,24.0,8.0,24.0,12.0,17,16,23,8,25,11,0.6667
+Energy,5,4,3,2,7,3,20.83333,16.66667,12.5,8.33333,29.16667,12.5,20,16,12,10,30,12,0.8333
+Physiological,4,5,3,2,7,2,17.3913,21.73913,13.04348,8.69565,30.43478,8.69565,17,22,12,9,30,10,0.6232
+Finance,3,2,2,7,7,2,13.04348,8.69565,8.69565,30.43478,30.43478,8.69565,14,10,8,30,30,8,0.7536
+Network monitoring,4,3,5,2,6,3,17.3913,13.04348,21.73913,8.69565,26.08696,13.04348,18,15,20,7,27,13,1.1594
